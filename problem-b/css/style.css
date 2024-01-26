@@ -1,1 +1,108 @@
-/* your CSS goes here */
+* {
+    box-sizing: border-box;
+}
+body, p, dl {
+    font-family: 'Nunito Sans', Arial, sans-serif;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+h1, h2, h3 {
+    font-family: 'Raleway', Helvetica, sans-serif;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+.material-icons {
+    font-family: 'Material Icons', sans-serif;
+    position: relative;
+    top: 5px;
+}
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2c96bf;
+    color: white;
+    padding: 0.5rem 0.5rem 1rem 0.5rem;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    margin: 0 1rem;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.25s ease-out, border-bottom 0.25s ease-out;
+}
+nav a:hover,
+nav a:focus,
+nav a:active {
+    color: #f0f0f0;
+    border-bottom: 0.8rem solid #f0f0f0;
+}
+header {
+    color: white;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+    background-image: url('../img/paul-gilmore-145802-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #0084af;
+}
+header p.motto {
+    font-style: italic;
+    font-size: 1.25rem;
+}
+#menu {
+    background-color: #f0f0f0;
+}
+#menu dt {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+#menu dd {
+    margin: 0;
+}
+#menu img {
+    height: 200px;
+    border-radius: 15px;
+}
+#about {
+    background-color: #e0e0e0;
+    line-height: 1.5;
+}
+footer {
+    color: white;
+    background-color: #3e1305;
+}
+footer p {
+    margin: 0;
+    line-height: 1.25;
+}
+footer p:last-child {
+    padding-top: 8px;
+}
